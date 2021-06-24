@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Lalyout</title>
+
+    <style type="text/css">
+        *,*:before, *:after{
+            
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: red;
+            color:white;
+            text-align: center;
+            margin:0;
+            
+        }
+
+       header,section,footer,nav{
+            border:1px solid black;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+.container{
+    width:1000px;
+    margin:0 auto;
+}
+        header,footer{
+            padding:20px 0;
+        }
+
+        nav,section{
+            padding:200px 0;
+        }
+
+        nav,section,footer{
+            float:left;
+        }
+
+        nav{
+            width:240px;
+            margin-right:10px;
+        }
+        section{
+            width:750px;
+             }
+    footer{
+        width:1000px;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>
+        Simple Web Layout
+    </h1>
+        <header>
+            HEADER
+        </header>
+        <nav>
+            NAV
+        </nav>
+        <section>
+            SECTION
+        </section>
+        <footer>
+            FOOTER
+        </footer>
+    </div>
+</body>
+</html>
