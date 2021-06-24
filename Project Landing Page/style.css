@@ -1,0 +1,67 @@
+*{
+    border-style: solic;
+    border-color: red;
+}
+a{
+    color:white;
+    text-decoration: none;
+
+}
+body{
+    color:#1E306E;
+}
+
+img{
+    padding:5px;
+    width:200px;
+    height:50px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    background-image: url("casper.jpg");
+    background-color:red;
+    text-align: center;
+    padding:5px;
+    height:500px;
+}
+
+header a.main-button{
+    margin-top: 80px;
+    padding:15px;
+    border-radius: 20px;
+    background-color: blue;
+    color:white;
+    display: inline-block;
+}
+header.top-liner{
+    font-size: 15px;
+    color: green;
+}
+
+header p.footer-text{
+    display: block;
+    padding-top: 150px;
+}
+
+
+.testimonials{
+    text-align: center;
+}
+
+.reviews{
+    display: inline-block;
+    width:400px;
+    height:250px;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #1E306E;
+    color:white;
+    clear:both;
+    padding:20px;
+}
