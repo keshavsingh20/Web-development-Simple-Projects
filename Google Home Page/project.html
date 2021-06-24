@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            width: 100%;
+        }
+
+        #nav_bar {
+            float: right;
+            margin: auto;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        #nav_bar li {
+            display: inline-block;
+            padding: 10px;
+        }
+
+        #signin {
+            background-color: blue;
+            margin-right: 25px;
+            padding: 7px 15px;
+            border-radius: 4px;
+            color: white;
+        }
+
+        .nav_links {
+            color: #404040;
+        }
+
+        #signin:hover {
+            box-shadow: 1px 1px 5px #999;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        li.nav_links a:hover {
+            text-decoration: underline;
+        }
+
+
+        .google #google_logo {
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+            clear: both;
+            padding-top: 60px;
+            padding-bottom: 15px;
+        }
+
+        .form {
+            text-align: center;
+        }
+
+        #search {
+            width: 500px;
+            line-height: 25px;
+            padding: 20px 5px;
+        }
+        .form #search{
+            padding:0  8px;
+        }
+        .buttons{
+            padding:15px;
+            text-align: center;
+            margin-bottom: 150px;
+        }
+
+        .fleft {
+            float: left;
+        }
+
+        .fright {
+            float: right;
+        }
+
+        footer{
+            background-color:antiquewhite;
+            bottom: 0;
+            width:100%;
+            padding-bottom:0;
+        }
+        footer ul{
+            margin-bottom:0;
+            padding:2px;
+        }
+
+        footer ul li{
+            text-decoration: none;
+            display: inline;
+            color:#404040;
+            font-size:14px;
+            padding:10px;
+            
+        }
+        footer ul li a:hover{
+            text-decoration: underline;
+        }
+
+
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="nav_bar">
+                <li class="nav_links" id="gmail"><a href="https://gmail.com">gmail</a></li>
+                <li class="nav_links"><a href="#">Images</a></li>
+                <li id="signin"><a href="#2">Sign In</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="google">
+        <a href="https://google.com" id="google_logo"><img src="google.jpg.jfif" width="400px" height="200px"></a>
+    </div>
+
+    <div class="form">
+        <form>
+            <label for="search"></label>
+            <input id="search" type="text" placeholder="search google or type url">
+        </form>
+    </div>
+
+    <div class="buttons">
+        <input type="submit" value="Google Search" id="googel_search">
+        <input type="submit" value="I'm Feeling Lucky" id="im_feeling_lucky">
+    </div>
+
+    <footer>
+        <p>Location:India</p>
+        <hr>
+        <ul class="fleft">
+            <li><a href="#3">About</a></li>
+            <li><a href="#4">Advertising</a></li>
+            <li><a href="#5">Business</a></li>
+            <li><a href="#6">How Search Works</a></li>
+        </ul>
+        <ul class="fright">
+            <li><a href="#7">Privacy</a></li>
+            <li><a href="#8">Terms</a></li>
+            <li><a href="#9">Settings</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
